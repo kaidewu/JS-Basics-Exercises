@@ -8,7 +8,7 @@ function addingZero(time){
 const weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 var currentDate = new Date();
 var cToday = 'Today is: ' + currentDate.toLocaleString(
-    // If it's default, set the language of your pc
+    // If it's default, show the language you have configurate on the pc
     'default', {weekday: 'long'}
 );
 var cHour = 'Current time is: ' + currentDate.getHours() + ':' + addingZero(currentDate.getMinutes()) +':' + addingZero(currentDate.getSeconds());
