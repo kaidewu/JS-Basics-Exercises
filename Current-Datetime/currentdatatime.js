@@ -6,10 +6,11 @@ function addingZero(time){
     return time;
 }
 const weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-let currentDate = new Date();
-let cToday = 'Today is: ' + currentDate.toLocaleString(
+var currentDate = new Date();
+var cToday = 'Today is: ' + currentDate.toLocaleString(
     // If it's default, set the language of your pc
     'default', {weekday: 'long'}
 );
-let cHour = 'Current time is: ' + currentDate.getHours() + ':' + addingZero(currentDate.getMinutes()) +':' + addingZero(currentDate.getSeconds());
-console.log(cToday,'\n',cHour);
+var cHour = 'Current time is: ' + currentDate.getHours() + ':' + addingZero(currentDate.getMinutes()) +':' + addingZero(currentDate.getSeconds());
+console.log(cToday);
+console.log(cHour)
