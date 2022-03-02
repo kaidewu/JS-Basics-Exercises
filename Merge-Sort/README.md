@@ -1,5 +1,5 @@
 ### Merge Sort
 Write a JavaScript to sort arrays of numbers
 
-#### Example
+### Example
 ![Merge Sort Example](content/merge-sort-example.png)
